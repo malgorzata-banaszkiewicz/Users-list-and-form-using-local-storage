@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Users</title>
+		<link rel="stylesheet" href="Normalization.css" />
+		<link rel="stylesheet" href="7th-homework.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+			rel="stylesheet" />
+		<script defer src="7th-homework.js"></script>
+	</head>
+	<body>
+		<header class="title">List of users</header>
+		<main>
+			<fieldset class="form">
+				<legend class="bold">Add new User</legend>
+				<form
+					action="7th-homework.html"
+					method="post"
+					class="new-user-form"
+					id="newUserForm">
+					<label for="user-name">name and surname</label>
+					<input
+						type="text"
+						name="user-name"
+						id="user-name"
+						class="input"
+						placeholder="Johnny Bravo" />
+					<label for="email">email address</label>
+					<input
+						type="text"
+						name="email"
+						id="email"
+						class="input"
+						placeholder="johnnybravo@itpanda.pl" />
+					<label for="city">city</label>
+					<input
+						type="text"
+						name="city"
+						id="city"
+						class="input"
+						placeholder="Neverland" />
+					<label for="street">street</label>
+					<input
+						type="text"
+						name="street"
+						id="street"
+						class="input"
+						placeholder="Sunflower street 7" />
+				</form>
+			</fieldset>
+
+			<button id="add-user" class="add-user">ADD</button>
+			<p class="navy bold" id="list-title">All users</p>
+			<div id="progress">Loading progress: <br /></div>
+			<ol class="users" id="users"></ol>
+		</main>
+		<footer>THE END</footer>
+	</body>
+</html>

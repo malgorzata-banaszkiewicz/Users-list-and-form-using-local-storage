@@ -1,0 +1,71 @@
+body {
+	width: 100%;
+	font-family: "Dosis", sans-serif;
+	font-size: 30px;
+	background-color: white;
+	color: #1c6000;
+	margin: 30px;
+}
+
+.title {
+	font-size: 45px;
+}
+
+.grey {
+	color: dimgray;
+}
+
+.navy {
+	color: #293556;
+}
+
+.form {
+	width: 50%;
+	border: 7px dotted #1c6000;
+	padding: 10px;
+}
+
+.new-user-form {
+	display: flex;
+	flex-direction: column;
+	font-weight: bold;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.input {
+	border: 4px solid #1c6000;
+}
+
+.add-user {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: rgba(47, 144, 6, 1);
+	background-image: linear-gradient(
+		216deg,
+		rgba(47, 144, 6, 1) 0%,
+		rgba(41, 53, 86, 1) 66%
+	);
+	color: white;
+	padding: 10px 30px 10px 30px;
+	cursor: pointer;
+	border-radius: 10%;
+}
+
+.users {
+	margin: 5px;
+	padding: 10px 40px 10px 40px;
+	border: 7px dotted #293556;
+	width: fit-content;
+}
+
+.disabled {
+	display: none;
+}
+
+.clicked {
+	background-color: #1c6000;
+	background-image: none;
+}
