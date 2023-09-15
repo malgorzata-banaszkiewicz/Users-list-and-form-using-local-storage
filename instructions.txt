@@ -24,9 +24,3 @@ Założenia
 Nazwy funkcji, pola obiektów, nazwy zmiennych i stałych powinny być zapisane po angielsku.
 Wykorzystaj fetch api przeglądarki.
 Zarówno formularz jak i pobrana lista użytkowników powinna znajdować się w jednym dokumencie html.
-Punktacja
-Łącznie możesz uzyskać 10pkt:
-
-Zadanie 1 - 5pkt
-Zadanie 2 - 5pkt
-Termin oddania 23.02.2023
